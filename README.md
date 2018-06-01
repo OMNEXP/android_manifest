@@ -1,9 +1,10 @@
-Bootleggers ROM | 8.1 Sources
+# OMN Experience #
+On My Nuts ! ! !
 ========
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1
+	repo init -u https://github.com/OMNEXPerience/android_manifest.git -b 8.1
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
@@ -22,13 +23,8 @@ When everything is done, be sure to shishufy your device (prepare it with the bo
 Sidenote: You can use `brunch device` or use the following commands too.
 
 	source build/envsetup.sh
-	lunch bootleg_device-userdebug
-	mka bacon -jxxxxx
-	
-	(where it says device, it's your device codename. And you can use mka bacon or mka bootleg, it's all up to you.)
-
-
-Also, as another sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
+	lunch omnexp_device-userdebug
+	mka bacon -jx
 
 
 Help from other devices
@@ -41,15 +37,12 @@ Thanks section
 --------------
 Here's my thanks to people who made this possible:
 
-* Shishu (For being there)
 * Ground Zero ROMs Team
 * AOSPExtended
 * ABC ROMs
 * NitrogenOS
 * AICP
 * DirtyUnicorns
-* Lukas Koller (Camera Roll dev)
-* fxckingdeathwish (for the amazing photos for wallpaper/headers)
 * OmniROM
 * CyanogenMod/LineageOS
 * PixelExperience
@@ -60,7 +53,6 @@ Here's my thanks to people who made this possible:
 * CrDroid
 * CypherOS
 * PureKat
-* theimpulson
 
 Help the GZOSP Guys
 -------------------
